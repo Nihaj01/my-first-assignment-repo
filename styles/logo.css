@@ -251,4 +251,30 @@ div  input[type="text"],div input[type="email"],div textarea{
     margin-bottom: 24px;
     border: none;
 }
-
+/* footer  */
+footer{
+    text-align: center;
+}
+.footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.footer-description{
+    font-size: 12px;
+    color: gray;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+footer ul{
+    display: flex;
+  gap: 20px; 
+  list-style: none;
+  justify-content: center; 
+  padding: 0;
+  margin: 0;
+}
+footer ul li a{
+    text-decoration: none;
+}
