@@ -60,7 +60,7 @@ nav li a{
 }
 /* header */
 header{
-    background-image: url(../images/bgh.png);
+    background-image: url(../images/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -81,12 +81,35 @@ header{
 
 }
 .banner{
-    max-width: 900px;
-    max-height: 150px;
+    height: 240px;
+    width: 900px ;
     align-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 0px 200px;
+}
+.action-section{
+    display: flex;
+    gap: 220px;
+    margin: 50px 200px;
+}
+.action-text{
+    font-size: 24px;
+    font-weight: 200;
+    color: #252432;
+}
+.action-title{
+    font-size: 42px;
+    width: 500px;
+    height: 50px;
+
+}
+.actionpic{
+    border-radius: 20px;
+}
+.actionbtn{
+    width: 220px;
+    height: 50px;
 }
