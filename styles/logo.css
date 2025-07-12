@@ -31,7 +31,13 @@
   width: 100px;
   
 }
-
+.inter-font-basic{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  
+}
 
 .raleway-font {
   font-family: "Raleway", sans-serif;
@@ -80,15 +86,16 @@ header{
     
 
 }
-.banner{
+.banner {
     height: 240px;
-    width: 900px ;
-    align-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0px 200px;
+    gap: 20px;
 }
 .action-section{
     display: flex;
@@ -113,3 +120,40 @@ header{
     width: 220px;
     height: 50px;
 }
+/* user */
+.pro-user{
+    background-color: beige;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px 200px;
+    
+
+}
+.user-title{
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.about-users{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.user-data{
+   color: #4E47FF;
+   font-size: 98px; 
+   font-weight: bold; 
+   margin-bottom: 0px ;
+   margin-top: 0px;
+}
+.user-subtitle{
+    font-size: 14px;
+    font-weight: 200;
+    color: #252432;
+    margin-top: 0px;
+}
+
