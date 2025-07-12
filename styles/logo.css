@@ -1,0 +1,92 @@
+/* shared */
+.primary-color{
+    color: #4E47FF;
+}
+.btn-bgc{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 16px;
+
+}
+.btn:hover {
+  background-color: #00ffbf;
+  color: white;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+/* fonts */
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 34px;
+  color: #4E47FF;
+  height: 50px;
+  width: 100px;
+  
+}
+
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* nav sty */
+nav{
+    display: flex;
+    gap: 400px; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+.nav-title{
+    
+
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 10px;
+
+}
+/* header */
+header{
+    background-image: url(../images/bgh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 350px;
+   
+
+
+
+
+}
+/* banner styles */
+.banner-header{
+    font-size: 65;
+    font-weight: bold;
+
+    
+
+}
+.banner{
+    max-width: 900px;
+    max-height: 150px;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 200px;
+}
