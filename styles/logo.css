@@ -52,10 +52,7 @@ nav{
     justify-content: space-between;
     margin: 0px 150px;
 }
-.nav-title{
-    
 
-}
 nav ul li{
     list-style: none;
 }
@@ -228,4 +225,30 @@ header{
   color: gray;
 }
 
+/* get in touch */
+.intouch{
+   display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: beige;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.intouch-title{
+    font-size: 97px;
+    font-weight: bold;
+
+}
+
+div  input[type="text"],div input[type="email"],div textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
 
