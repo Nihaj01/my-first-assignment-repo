@@ -285,4 +285,42 @@ footer ul{
 }
 footer ul li a{
     text-decoration: none;
+    color: #7c7a7a;
 }
+/* better focus */
+.better-focus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  text-align: center;
+  background-color: #f5f7ff;
+  padding: 60px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.better-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.better-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+.better-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top:  20px;
+}
+.better-button{
+    width: 220px;
+   
+}
+
